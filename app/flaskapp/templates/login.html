@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+{% block content %}
+<!-- Login Start -->
+<section id="section2" class="login row address parallax-window" data-parallax="scroll"
+    data-image-src="static/img/slider/1900x1000.jpg">
+    <div class="contact100-form-title container col-lg-7">
+        <h3>Let's get started</h3>
+        <h2>Login</h2>
+        <form class="contact100-form validate-form" action="" method="post">
+
+            <div class="col-lg-12 label-input100 login-card">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter your email addess here" />
+            </div>
+
+            <div class="col-lg-12 label-input100 login-card">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1"
+                    placeholder="Enter your super secure password here" />
+
+            </div>
+
+            <div class="container-contact100-form-btn login-card">
+                <button class="contact100-form-btn">
+                    <span>
+                        Login
+                        <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+                    </span>
+                </button>
+            </div>
+
+            <div class="container-contact100-form-btn">
+                <a href="register.html"><u> Are you a new user? </u> </a>
+            </div>
+        </form>
+    </div>
+</section>
+<!-- Login End -->
+
+{% endblock content %}
